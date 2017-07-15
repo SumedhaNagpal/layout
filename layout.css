@@ -1,0 +1,148 @@
+* {
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #EFF0F1;
+}
+
+header {
+	background: linear-gradient(to right, white, white 50%, #95a83f);
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header #head {
+	width: 60%;
+	padding: 5px 30px;
+}
+
+header #head #tnp{
+	font: bold 30px 'Open Sans', sans-serif;
+}
+
+header div #college{
+	font: bold 20px 'Open Sans', sans-serif;
+}
+
+header img{
+	height: 90px;
+	width: 95px;
+}
+
+
+header ul li {
+	font: bold 12px 'opensans-bold', sans-serif;
+	padding: 8px;
+	display: inline-block;
+	list-style: none;
+
+}
+
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+	border-top: 3px solid #95A83F;
+   font: bold 16px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   left: 0;
+   /*background-color: #00C746;*/
+   background-color: #A3B748;
+   display: flex;
+   justify-content: space-around;
+   box-shadow: 10px 5px 5px #666666;
+}
+
+
+ul#nav {
+
+   min-height: 48px;
+   width: auto;
+   text-align: center;
+}
+ul#nav li {
+   /*position: relative;*/
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+}
+
+/* Links */
+ul#nav li {
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+   text-align: center;
+   color: #fff;
+   border-right: 3px solid #95A83F;
+   border-image: linear-gradient(#95A83F, #666666) 10;
+}
+
+ul#nav li:last-child {
+	border-right: none;
+}
+
+ul#nav li a {color: white; text-decoration: none;}
+
+ul#nav li:hover { background-color: #95A83F; }
+
+
+
+
+
+footer {
+	height: 100px;
+   padding-top: 48px;
+   background-color: #00C746;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+}
+
+footer #contact {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+footer .info {
+   font: 20px/24px 'opensans-bold', sans-serif;
+   
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+
+footer .right {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 16px;
+}
+footer .right li{
+   font: 20px/24px 'opensans-bold', serif;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #F06000;
+}
+
+footer .right li a{
+   text-decoration: none;
+   color: white;
+}
+
+footer .right li:hover {
+   background-color: #666666;
+}
